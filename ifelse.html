@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //if else//
+        var name= "mani";
+
+        if (name=="mani"){
+            console.log("correct");
+        }else{
+            console.log("wrong");
+        }
+
+
+   //else if//
+       var a=5; var b=9;
+        if(a==5 ,b==5){
+            console.log("corect")
+            console.log("yes")
+        }
+        else if(a<5,b>5 ){
+            console.log("corect")
+            console.log("correct")
+        }
+        else{
+            console.log("print no value")
+        }
+
+        //nested if//
+    var  age=25;
+      var  mark=60;
+        if(age>25){
+            if(age<60){
+                console.log("age permitted");
+                if(mark>50){
+                    if(mark<100){
+                        console.log("first class");
+                    }
+                }
+            else{
+        console.log("seconfd class");
+       }
+    }
+ 
+}else{
+        console.log("age restricted");
+      } 
+       
+        //conditon check//
+ var  a=5; b=5; c=10; d=5; e=5; f=5; g=5; h=5; i=5; ;
+if((a==5) && (b==5) && (c==5) && (d==5) && (e==5) && (f==5) && (g==5) && (h==5) && (i==5)&& (j==5)){
+    console.log("yes the value or correct");
+}
+else{
+    console.log("value or not correct")
+}
+
+
+//switch//
+ let fruit="mango"; 
+  switch(fruit){
+    case "mango":
+    console.log("fruit is mango");
+    break;
+    case "banna":
+        console.log("yes is banana")
+        break;
+        default:
+            console.log("Unknown fruit")
+  }
+
+
+//nested switch//
+let color="red";
+let shade="dark";
+
+switch(color){
+    case "red":
+        
+    switch(shade){
+      case "dark":
+        console.log("it s a dark red");
+        break;
+        case "light":
+        console.log("it is a light red");
+        break;
+        default:
+            console.log("unknown shade of red");
+        }
+        break;
+        case "blue":
+            console.log("it is a blue");
+            break;
+            default:
+        console.log("unknown color")
+}
+
+
+//for loop//
+for (i=0; i<= 8; i++){
+    console.log(+i);
+}
+
+for(i=6; i>=1; i--){
+    console.log(-i);
+}
+
+
+//while//
+
+let j = 0;
+ while (j < 5) {
+    console.log("j is " + j);
+    j++; 
+ }
+
+
+ //do//
+let z=0;
+do{
+    console.log("z is"+ z);
+    z++;
+}while(z< 5);
+
+
+
+
+
+
+    </script>
+</body>
+</html>
